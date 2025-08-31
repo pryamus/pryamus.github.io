@@ -1,4 +1,5 @@
-site_name: My Docs
+site_name: Material for "Base Python"
+site_description: Материалы по курсу "Основы Python"
 site_url:  ""
 theme:
   name: material
