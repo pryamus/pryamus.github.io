@@ -306,13 +306,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#jupyter-lab" class="md-nav__link">
+  <a href="#jupyter-notebook" class="md-nav__link">
     <span class="md-ellipsis">
-      Jupyter Lab
+      Jupyter Notebook
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Jupyter Lab">
+    <nav class="md-nav" aria-label="Jupyter Notebook">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -424,13 +424,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#jupyter-lab" class="md-nav__link">
+  <a href="#jupyter-notebook" class="md-nav__link">
     <span class="md-ellipsis">
-      Jupyter Lab
+      Jupyter Notebook
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Jupyter Lab">
+    <nav class="md-nav" aria-label="Jupyter Notebook">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -488,18 +488,15 @@
 <p>Для начала проверить, какая версия Windows на компьютере — 32-битная или 64-битная. Это будет указано в строке «Тип системы» на странице «Сведения о системе». Чтобы попасть туда, попробуйте один из этих способов:</p>
 <p>Нажать одновременно клавиши Windows и Pause/Break</p>
 <p>Открыть панель управления из меню Windows, оттуда перейти в «Система и безопасность», затем в «Система»</p>
-<p>Нажать клавишу Windows, затем перейти по разделам Настройки &gt; Система &gt; О системе</p>
-<p>Можно загрузить Python для Windows с официального веб-сайта:<a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a>.</p>
+<p>Нажать клавишу Windows, затем перейти по разделам <em>Настройки &gt; Система &gt; О системе</em></p>
+<p>Можно загрузить Python для Windows с официального веб-сайта:
+<a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a>.</p>
 <p>Перейти по ссылке «Latest Python 3 Release - Python x.x.x». Если установлена 64-битная версия Windows, скачать Windows installer (64-bit). Если нет — скачать Windows installer (32-bit). После загрузки дистрибутива запустить его (двойным щелчком) и следовать инструкциям.</p>
 <p>Обратите внимание на экран мастера установки, который называется «Setup» (Настройка): нужно пролистать его вниз и выбрать опцию «Add Python 3.12 to the PATH» (Добавить Python 3.12 к системной переменной PATH):</p>
 <p><img alt="Установка" src="../images/python-installation-options.png" /></p>
-<!-- <image src="./Введение в Python_files/python-installation-options.png"> -->
-
 <p>Примечание: если используется старая версия Windows (7, Vista или ещё более старую версия), и установка Python 3.12 завершается выводом сообщения об ошибке, можно попробовать:</p>
 <p>либо установить все доступные обновления Windows и попробовать установить Python 3.12 заново;</p>
 <p>либо установить <a href="https://www.python.org/downloads/windows/">более раннюю версию Python</a>, например, <a href="https://www.python.org/downloads/release/python-3810/">3.8.10</a>.</p>
-<p>Если пришлось установить раннюю версию Python, экран установки может выглядеть чуть иначе, чем показано выше:</p>
-<p><image src="./Введение в Python_files/add_python_to_windows_path.png"></p>
 <h4 id="linux">Установка в Linux:</h4>
 <p>Вполне вероятно, что уже установлен Python. Чтобы проверить это (а также версию языка), откройте консоль и введи следующую команду:</p>
 <pre><code>python3 --version 
@@ -513,7 +510,7 @@ Python 3.12.3
 <pre><code>python3 --version 
 Python 3.12.3
 </code></pre>
-<h3 id="jupyter-lab">Jupyter Lab</h3>
+<h3 id="jupyter-notebook">Jupyter Notebook</h3>
 <h4 id="_2">Установка</h4>
 <p>Нужно перейти в командную строку и установить сам ноутбук. В этом поможет специальная утилита — pip. С помощью неё можно распаковать, установить или обновить программы, в том числе и Jupyter. Утилита загружается на компьютер вместе с Python. Чтобы установить ноутбук, надо ввести команду:</p>
 <pre><code>pip install notebook
@@ -536,10 +533,10 @@ Python 3.12.3
 </li>
 </ul>
 <p>Интерфейс ноутбука открывается прямо в браузере</p>
-<p><image src="./Введение в Python_files/image.png"></p>
+<p><img alt="Главное окно" src="../images/jupyter_main_window.png" /></p>
 <p>Чтобы начать новый проект, нужно запустить Jupyter-ноутбук и создать папку для проектов. Затем нажать New в правой части экрана и выбрать в списке меню Folder.</p>
 <p>Новая папка автоматически будет названа Untitled folder. Чтобы назвать её по-другому, нужно поставить галочку напротив имени и нажать Rename Чтобы создать ноутбук, нужно снова использовать New и выбрать Python 3.</p>
-<p><image src="./Введение в Python_files/image(1).png"></p>
+<p><img alt="Создание ноутбука" src="../images/notebook_creation.png" /></p>
 <p><br><br></p>
 <h2 id="_4">Практика:</h2>
 <ol>
