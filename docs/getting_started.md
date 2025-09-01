@@ -99,26 +99,3 @@ jupyter notebook
 Новая папка автоматически будет названа Untitled folder. Чтобы назвать её по-другому, нужно поставить галочку напротив имени и нажать Rename Чтобы создать ноутбук, нужно снова использовать New и выбрать Python 3.
 
 ![Создание ноутбука](./images/notebook_creation.png)
-
-<br><br>
-## Практика:
-
-1. Вывести “hello world”
-
-2. Отобразить графики
-
-```python
-import matplotlib.pyplot as plt 
-
-x = [1, 2, 3, 4, 5, 6, 7, 8] 
-y = [2, 4, 6, 8, 10, 12, 14, 16] 
-plt.plot(x,y) 
-plt.show()
-```
-
-
-_Примечание:_ нужно установить библиотеки:
-```
-pip install pandas
-pip install matplotlib
-```
